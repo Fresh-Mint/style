@@ -397,17 +397,16 @@ on one line.
 
 ## Quotes
 
-Use `"`, not `'`, for quoting text. The only exception is when the text already 
-contains double quotes and no single quotes.
+Use `'`, not `"`, for quoting text. The only exception is for a quote within a quote, then you should use double quotation marks . 
 
 ```{r, eval=FALSE}
 # Good
-"Text"
+'Text'
 'Text with "quotes"'
 '<a href="http://style.tidyverse.org">A link</a>'
 
 # Bad
-'Text'
+"Text"
 'Text with "double" and \'single\' quotes'
 ```
 
